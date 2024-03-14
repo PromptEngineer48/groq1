@@ -26,7 +26,7 @@ def generate_response(prompt):
             memory=memory
     )
     
-    system_prompt = """Please in a very short and sweet manner. You are a helpful assistant. Reply for me the following question=> {}""".format(prompt)
+    system_prompt = """Please respond in a very short and sweet manner. You are a helpful assistant. Reply for me the following question=> {}""".format(prompt)
     
     if prompt:
         response = conversation(system_prompt)
