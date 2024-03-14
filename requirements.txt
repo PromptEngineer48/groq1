@@ -3,3 +3,4 @@ gradio
 langchain
 langchain_groq
 groq
+python-dotenv
